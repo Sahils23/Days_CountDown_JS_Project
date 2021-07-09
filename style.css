@@ -1,0 +1,38 @@
+body{
+    background-image: url('snow.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    border: 1px solid rebeccapurple;
+}
+h1{
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+.countdown-container{
+display: flex;
+
+audio{
+    display: none;
+}
+}
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin:0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+    
+}
+.countdown-el span{
+  font-size: 1.5rem;
+
+}
